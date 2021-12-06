@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Bootstrap - Prebuilt Layout</title>
+    <!-- TemplateEndEditable -->
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="../css/portfolio.css" rel="stylesheet" type="text/css">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+             </li>
+			  <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+             </li>
+          </ul>
+       </div>
+    </nav>
+  
+
+    <div class="container">
+		<div class="row">
+		<div class="col-md-12">
+          <div class="container-fluid logo"><img src="../images/Warm Orange Sunburst Wellness Coach Logo.png" class="rounded img-fluid" alt="logo" width="380" height="250"></div>
+        </div>
+		</div>
+       <div class="row info">
+	     <!-- TemplateBeginEditable name="EditRegion3" -->
+         <div class="col-md-4 info1"> Click here to select this<strong> column.</strong> Always place your content within a column. Columns are indicated by a dashed blue line. </div>
+       <!-- TemplateEndEditable -->
+		<!-- TemplateBeginEditable name="EditRegion4" -->
+       <div class="col-md-4 info2">
+         <p>Hello, I&#39;m Renee Ammerman and I&#39;m a front-end web developer, based in Cleveland, Ohio. I strive to create beautiful websites with seamless user experiences.</p>
+         <button class="btn btn-primary text-lowercase border rounded-pill border-light shadow-sm" type="button"><a href="contact.html">Contact me</a></button>
+       </div>
+       <!-- TemplateEndEditable -->
+		<!-- TemplateBeginEditable name="EditRegion5" -->
+       <div class="col-md-4 info3"> You can <strong>offset a column</strong> using the handle on the left. Drag it to increase or reduce the offset. </div>
+       <!-- TemplateEndEditable --></div>
+       <br/>
+       <br>
+       <hr>
+       <div class="row">
+		<!-- TemplateBeginEditable name="EditRegion6" -->
+       <div class="text-center col-lg-6 offset-lg-3">
+         <p>Copyright &copy; Renee Ammerman 2021 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
+       </div>
+       <!-- TemplateEndEditable --></div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
